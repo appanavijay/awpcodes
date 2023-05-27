@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+    margin: 0;
+    
+}
+.icon-bars{
+    font-family: arial;
+    
+    background-color:green;
+    width: 390px;
+    height: 200vh;
+    position: relative;
+    top:0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.5s linear;
+}
+.show{
+    transform: translateX(10%);
+}
+.bars{
+    position: absolute;
+    top:20px;
+    left: 520px;
+    font-size: 2.5rem;
+    color: grey;
+}
+
+
+.icon-bars a{
+    display: block;
+    text-align: left;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    color: white;
+    
+}
+.icon-bars a.active{
+
+    background-color: rgb(1, 19, 10);
+}
+.icon-bars a:hover{
+    background-color: rgb(189, 31, 129);
+}
+
